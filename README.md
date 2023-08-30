@@ -44,7 +44,15 @@ git remote add origin <link to your remote repository>
 
 6. git push. Puhes local changes to remote git repository.
 
+For the first push command you need '-u' flag.
+
 ```
-git push <name of your repository> <name of your branch>
+git push (-u) origin <name of your branch>
 ```
+
+## Other usefull commands
+
+- git log. Shows you your commits.
+
+- git status. Shows you current changes in your repository.
 
