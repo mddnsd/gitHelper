@@ -112,3 +112,10 @@ tracked - tracked files, which changes is tracked by git.
 ### git status
 
 git status shows you statuses of repository files (can see them upper).
+
+## Deleting latest commit in remote repository
+
+```
+$ git reset --hard <hash>
+$ git push --force <repositoryName> <branchName>
+```
